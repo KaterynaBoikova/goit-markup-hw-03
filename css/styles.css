@@ -1,0 +1,208 @@
+:root {
+  --primary-text-color: #212121;
+  --secondary-text-color: #757575;
+  --attention-text-color: #2196f3;
+  --light-text-color: rgba(255, 255, 255, 0.6);
+  --bg-secondary-color: #2f303a;
+  --bg-dark-grey: #f5f4fa;
+  --color-white: #ffffff;
+}
+
+ul {
+  list-style: none;
+  padding-left: 0px;
+}
+body {
+  color: var(--primary-text-color);
+  background: var(--color-white);
+  font-family: "Roboto", sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  letter-spacing: 0.03em;
+  margin: 0px;
+}
+a {
+  text-decoration: none;
+}
+html {
+  box-sizing: border-box;
+}
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+}
+
+/* Остальной код */
+
+/******************TOP NAV**********************/
+.logo {
+  font-family: "Raleway", sans-serif;
+  font-weight: bold;
+  font-size: 26px;
+  line-height: 31px;
+  color: var(--attention-text-color);
+}
+.logo-black {
+  color: var(--primary-text-color);
+}
+.logo-white {
+  color: var(--color-white);
+}
+.top-nav-links > li > a {
+  font-weight: 500;
+  line-height: 16px;
+  letter-spacing: 0.02em;
+  color: var(--primary-text-color);
+}
+
+.top-nav-contacts > li > a {
+  font-weight: 500;
+  line-height: 16px;
+  letter-spacing: 0.02em;
+  color: var(--secondary-text-color);
+}
+.state-color:hover,
+.state-color:focus {
+  color: var(--attention-text-color);
+}
+/*.state-color.current {
+  color: var(--attention-text-color);
+}*/
+/********************** INDEX MAIN BANNER*****************/
+h1 {
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 60px;
+  text-align: center;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  color: var(--color-white);
+}
+.main-button {
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 30px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  letter-spacing: 0.06em;
+  color: var(--color-white);
+  background: var(--attention-text-color);
+  box-shadow: 0px 4px 4px var(--light-text-color);
+  border-radius: 4px;
+}
+.hero {
+  background: var(--bg-secondary-color);
+}
+/********************** INDEX MAIN *****************/
+.features h3 {
+  font-weight: bold;
+  line-height: 16px;
+  text-transform: uppercase;
+}
+.features p {
+  line-height: 24px;
+  color: var(--secondary-text-color);
+}
+
+.our-team {
+  background: var(--bg-dark-grey);
+  padding-left: 215px;
+  padding-right: 215px;
+  padding-bottom: 94px;
+  padding-top: 94px;
+}
+.what-we-do h2 {
+  font-weight: bold;
+  font-size: 36px;
+  line-height: 42px;
+  text-align: center;
+}
+
+.our-team h2 {
+  font-weight: bold;
+  font-size: 36px;
+  line-height: 42px;
+  text-align: center;
+  margin: 0px;
+  padding-bottom: 50px;
+}
+.our-team-list {
+  margin: 0px;
+  display: inline-flex;
+  justify-content: space-between;
+  width: 100%;
+}
+.our-team-list li {
+  background: var(--color-white);
+  box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
+    0px 2px 1px rgba(0, 0, 0, 0.2);
+  border-radius: 0px 0px 4px 4px;
+}
+.our-team-list h3 {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 19px;
+  text-align: center;
+  margin: 0px;
+  padding-top: 30px;
+}
+
+.our-team-list p {
+  font-size: 16px;
+  line-height: 19px;
+  text-align: center;
+  color: var(--secondary-text-color);
+  margin: 0px;
+  padding-bottom: 30px;
+  padding-top: 10px;
+}
+
+/******************* FOOTER **********************/
+.footer-contacts {
+  line-height: 24px;
+  color: var(--light-text-color);
+}
+.footer-address {
+  line-height: 24px;
+  color: var(--color-white);
+}
+footer {
+  background: var(--bg-secondary-color);
+  padding-top: 60px;
+  padding-bottom: 60px;
+  padding-left: 215px;
+  margin: 0px;
+}
+
+/****************** PORTFOLIO *******************/
+.portfolio-list a {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 26px;
+  text-align: center;
+  color: var(--primary-text-color);
+  background: #f5f4fa;
+  border-radius: 4px;
+}
+.portfolio-list a:hover,
+.portfolio-list a:focus {
+  background: var(--attention-text-color);
+  box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08),
+    0px 2px 2px rgba(0, 0, 0, 0.12);
+  color: var(--color-white);
+}
+.portfolio-cards h3 {
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 36px;
+  letter-spacing: 0.06em;
+  color: var(--primary-text-color);
+}
+.portfolio-cards p {
+  font-size: 16px;
+  line-height: 30px;
+  color: var(--secondary-text-color);
+}
